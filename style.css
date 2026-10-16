@@ -1,0 +1,115 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 10vh 47vw 22vh 22vh;
+}
+
+#l {
+    background-color: white ;
+    grid-column: 1 / 5;
+    border-radius: 30px;
+      background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.07.59.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#a {
+    background-color: white ;
+    grid-column: 1 / 5;
+    background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.03.01.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#e {
+    background-color: #FF6600;
+    grid-row: 3 / 5;
+    border-radius: 30px;
+      background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.25.51.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#f {
+    background-color:black ;
+    border-radius: 30px;
+    border-radius: 30px;
+      background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.26.42.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#g {
+    background-color: #FFBACF;
+    border-radius: 30px;
+    border-radius: 30px;
+      background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.27.37.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#h {
+    background-color: #00B6DE;
+    border-radius: 30px;
+    border-radius: 30px;
+      background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.28.50.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#i {
+    background-color:#B4ECFF ;
+    border-radius: 30px;
+    border-radius: 30px;
+      background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.31.18.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#j {
+    background-color:#BEA174 ;
+    border-radius: 30px;
+    border-radius: 30px;
+      background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.31.29.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#k {
+    background-color:#FF4D00;
+    border-radius: 30px;
+    border-radius: 30px;
+      background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.31.49.png);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
